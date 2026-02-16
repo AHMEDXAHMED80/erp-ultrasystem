@@ -46,6 +46,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -70,7 +74,14 @@
 						<configuration>
 							<sources>
 								<source>erp-common/src/main/java</source>
-							<source>erp-auth/src/main/java</source>
+								<source>erp-auth/src/main/java</source>
+								<source>erp-budget/src/main/java</source>
+								<source>erp-expense/src/main/java</source>
+								<source>erp-finance/src/main/java</source>
+								<source>erp-hr/src/main/java</source>
+								<source>erp-inventory/src/main/java</source>
+								<source>erp-procurement/src/main/java</source>
+								<source>erp-sales/src/main/java</source>
 							</sources>
 						</configuration>
 					</execution>
