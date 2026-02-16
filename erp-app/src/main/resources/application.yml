@@ -19,5 +19,13 @@ spring:
         jwt:
           issuer-uri: http://localhost:8180/realms/erp-ultrasystem
 
+keycloak:
+  auth-server-url: http://localhost:8180
+  realm: erp-ultrasystem
+  client-id: erp-client
+  client-secret: 06c9xZfObjTSfzR5eoyrtAZDOZdXzlFC
+  admin-username: admin
+  admin-password: admin
+
 server:
   port: 8080

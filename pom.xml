@@ -70,6 +70,7 @@
 						<configuration>
 							<sources>
 								<source>erp-common/src/main/java</source>
+							<source>erp-auth/src/main/java</source>
 							</sources>
 						</configuration>
 					</execution>
